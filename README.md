@@ -2,7 +2,7 @@
 Bikelist is a java based programm for managing Bikes and Cars in a list. 
 
 ## Installation
-Just pull the whole repository. 
+Just clone the whole repository. 
 
 ## Usage 
 You can type single commands in the command line. if you want to see all commands
