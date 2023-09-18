@@ -26,10 +26,22 @@ public class CalculatorTest {
         assertEquals(3, calc.minus(5,2));
     }
 
-    @DisplayName("Testing divide() method")
+    @DisplayName("Testing 1 divide() method")
     @Test
     void testDivide(){
         assertEquals(5, calc.divide(10,2));
+    }
+
+    @DisplayName("Testing 2 divide() method")
+    @Test
+    void testDivide2(){
+        assertEquals(0, calc.divide(5,0));
+    }
+
+    @DisplayName("Testing 3 divide() method")
+    @Test
+    void testDivide3(){
+        assertThrows(ArithmeticException.class, () -> {calc.divide(5,0);});
     }
 
     @DisplayName("Testing multiply() method")

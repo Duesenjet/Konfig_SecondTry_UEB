@@ -28,3 +28,8 @@ datei befindet sich unter untracked files
 
 nach git add gitignore: 
 datei unter changes to be committed
+
+## Zusatznotiz 
+.gitignore Datei laut Angabe *.html und *.pdf hinzufügen, habe ich aber ausgelassen
+da sonst nicht ersichtlich ist, dass das README aus Übung 1 mittels Pandoc 
+in eine html und pdf Datei umgewandelt wurde.  
